@@ -20,7 +20,7 @@ class PeminjamanController extends CI_Controller {
 	public function store(){
 		$data = array(
 			'kode_anggota' => $this->input->post('kode_anggota'),
-			'kode_petugas' => $this->input->post('kode_petugas'),
+			'kode_petugas' => $this->session->userdata('kode_petugas'),
 		);
 		$result = $this->Peminjaman->insert($data);
 		echo json_encode($result);
