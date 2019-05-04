@@ -49,4 +49,6 @@ class Petugas extends CI_Model {
         return $this->db->get('petugas')->row_array();
     }
 }
+
+// Test
 ?>

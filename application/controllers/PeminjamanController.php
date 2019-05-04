@@ -1,5 +1,7 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed'); 
 
+// Test
+
 class PeminjamanController extends CI_Controller { 
 	function __construct()
 	{

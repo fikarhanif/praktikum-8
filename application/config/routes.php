@@ -31,7 +31,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 | This route indicates which controller class should be loaded if the
 | URI contains no data. In the above example, the "welcome" class
-| would be loaded.
+| would be loaded..
 |
 |	$route['404_override'] = 'errors/page_missing';
 |

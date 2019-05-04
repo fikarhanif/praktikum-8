@@ -1,7 +1,7 @@
 <?php
   defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
-<!-- Content Header (Page header) -->
+<!-- Content Headers (Page header) -->
 <section class="content-header">
   <h1>
     Data Petugas
